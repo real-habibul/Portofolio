@@ -1,5 +1,6 @@
 html {
     position: relative;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -11,24 +12,17 @@ body {
 }
 
 .jumbotron {
-    margin-top: 30px;
     img {
-        width: 200px;
+        width: 25%;
         border: 5px solid #333;
     }
 }
 
 section {
     min-height: 50vh;
-    padding: 50px 0;
 
-    &.about {
-    }
-    &.portofolio {
+    &.portfolio {
         background-color: #ddd;
-    }
-
-    &.contact {
     }
 }
 

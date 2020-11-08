@@ -1,26 +1,24 @@
 html {
   position: relative;
+  scroll-behavior: smooth;
 }
 
 body {
   margin-bottom: 100px;
 }
 
-.jumbotron {
-  margin-top: 30px;
-}
 .jumbotron img {
-  width: 200px;
+  width: 25%;
   border: 5px solid #333;
 }
 
 section {
   min-height: 50vh;
-  padding: 50px 0;
 }
-section.portofolio {
+section.portfolio {
   background-color: #ddd;
 }
+
 hr {
   width: 250px;
   border-top: 3px solid #999;
